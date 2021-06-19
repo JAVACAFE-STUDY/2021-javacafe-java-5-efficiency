@@ -2,11 +2,15 @@ package org.javacafe.enums;
 
 public class Sample {
     public void test() {
-        Example1.AAAAAA.name();
-        Example1.AAAAAA.ordinal();
+        // String value = Example1.AAAAAA.name();
+        // int value2 = Example1.AAAAAA.ordinal();
+        //
+        // System.out.println(value);
+        // System.out.println(value2);
 
-        Example2.AAAAAA.getName();
-        Example2.AAAAAA.getValue();
+
+        System.out.println(Example2.AAAAAA.getName());
+        System.out.println(Example2.AAAAAA.getValue());
     }
 
     public void test(String a) {

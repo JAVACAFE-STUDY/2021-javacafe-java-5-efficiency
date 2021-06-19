@@ -4,10 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class IntegerBox {
-    private List<Integer> valueList = new ArrayList<>();
+    private final List<Integer> valueList = new ArrayList<>();
 
-    public void add(int value) {
+    public void add(int value) {//int value ==> parameter
         valueList.add(value);
     }
-
+    public int get(int index) {
+        return valueList.get(index);
+    }
 }

@@ -1,12 +1,12 @@
 package org.javacafe.enums;
 
 public enum Example2 {
-    AAAAAA("aa", "aa"),
-    BBBBBB("bb", "bb"),
-    CCCCCC("cc", "cc");
+    AAAAAA("자바카페", "만세"),
+    BBBBBB("서동우", "화이팅"),
+    CCCCCC("우하하", "패밀리");
 
-    private String name;
-    private String value;
+    private final String name;
+    private final String value;
 
     private Example2(String name, String value) {
         this.name = name;
